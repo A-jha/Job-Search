@@ -1,0 +1,51 @@
+.jobCardCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.jobMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jobHeading {
+  margin: 5px 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 3px black;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+}
+.qoutes {
+  text-align: center;
+  background: #444;
+}
+.dQuotes {
+  color: blue;
+  font-size: 3rem;
+}
+.dQuotesWriter {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+.quotesWriter {
+  color: red;
+  font-size: 2rem;
+  text-align: right;
+}
+.loadBtn {
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  background: rgba(12, 69, 224, 0.8);
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loadBtn:hover {
+  background: rgba(12, 69, 224, 1);
+  padding: 12px;
+}
